@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie-database{
+  text-align: center;
+}
+
+.movie-list{
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #FF4136; */
+  width: 620px;
+  height: auto;
+
+}
+
+.upcoming-release {
+  background-color: #99CCFF88;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 2px solid #99CCFF;
+  padding: 10px 10px 20px 10px;
+  width: 600px;
+  height: auto;
+
+  display: flex;
+
+}
+
+.upcoming-release__poster {
+
+  margin: 20px 30px 0 0;
+  width: 200px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.upcoming-release__text {
+  flex: 1 1 auto;
 }
